@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: runners.Runner
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 49.977 s <<< FAILURE! - in runners.Runner
+user login to the page unsuccessful.user login unsuccessful #1  Time elapsed: 8.353 s  <<< FAILURE!
+java.lang.AssertionError: The User is wrongis wrong
+
+user login to the page unsuccessful.user login unsuccessful #2  Time elapsed: 4.075 s  <<< FAILURE!
+java.lang.AssertionError: The User is wrongis wrong
+
+user login to the page unsuccessful.user login unsuccessful #3  Time elapsed: 4.747 s  <<< FAILURE!
+java.lang.AssertionError: The User is wrongis wrong
+
+user login to the page unsuccessful.user login unsuccessful #4  Time elapsed: 3.864 s  <<< FAILURE!
+java.lang.AssertionError: The User is wrongis wrong
+

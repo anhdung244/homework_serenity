@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><testsuite errors="0" failures="4" name="user login to the page unsuccessful" skipped="0" tests="4" time="20.32" timestamp="2022-04-18 02:19:53"><testcase name="user login unsuccessful"><failure message="The User is wrongis wrong" type="java.lang.AssertionError">The User is wrongis wrong</failure><system-err>The User is wrongis wrong&#13;
+cucumber.LoginStepDefs.the_error_message_user_is_not_valid_is_displayed(LoginStepDefs.java:27)&#13;
+✽.the error message 'User is wrong' is displayed(file:///D:/Pratice/serenity_homework/src/test/resources/features.login/login_unsuccess.feature:6)&#13;
+</system-err></testcase></testsuite>
