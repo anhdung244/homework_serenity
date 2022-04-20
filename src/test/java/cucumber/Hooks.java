@@ -5,16 +5,26 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.util.EnvironmentVariables;
 import net.thucydides.core.util.SystemEnvironmentVariables;
-import org.openqa.selenium.WebDriver;
 
 public class Hooks extends PageObject {
     @Before
     public void setUp() {
         EnvironmentVariables environmentVariables = SystemEnvironmentVariables.createEnvironmentVariables();
-        String driverRunning = environmentVariables.getProperty("webdriver.driver");
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = getDriver();
+        String driverRunning = environmentVariables.getProperty("driver");
+
+
+        switch (driverRunning) {
+            case "firefox":
+                WebDriverManager.firefoxdriver().setup();
+                break;
+            case "chrome":
+            default:
+                WebDriverManager.chromedriver().setup();
+                break;
+
+
+        }
         open();
-        driver.manage().window().maximize();
+        getDriver().manage().window().maximize();
     }
 }

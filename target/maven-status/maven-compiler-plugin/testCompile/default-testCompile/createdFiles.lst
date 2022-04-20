@@ -3,6 +3,7 @@ pages\LoginPage.class
 cucumber\LoginStepDefs.class
 serenity\HomeStepLibraries.class
 pages\HomePage.class
+serenity\test.class
 runners\Runner.class
 cucumber\HomeStepDefs.class
 serenity\LoginStepLibraries.class

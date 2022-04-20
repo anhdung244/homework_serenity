@@ -12,7 +12,7 @@ public class CommonStepDefs {
 
     @Then("the user is at {string} page")
     public void the_user_is_at_page(String page) {
-        assertThat("The " + page + "is NOT available", commonStepLibraries.isAt(page));
+        assertThat("The " + page + " is NOT available", commonStepLibraries.isAt(page));
 
     }
 

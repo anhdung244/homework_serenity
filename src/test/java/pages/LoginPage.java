@@ -18,6 +18,15 @@ public class LoginPage extends PageObject {
     @FindBy(css = "input[value='LOGIN']")
     private WebElementFacade btnLogin;
 
+    @FindBy(name = "frmLogin")
+    private WebElementFacade formLogin;
+
+    public boolean isAt() {
+        if (formLogin.isDisplayed()) {
+            return true;
+        }
+        return false;
+    }
 
     public void setUser(String user) {
         username.waitUntilVisible().then().type(user);

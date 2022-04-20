@@ -17,7 +17,7 @@ public class LoginStepDefs {
 //    }
 
     @Given("^the user enters the username (.+) and password (.+)$")
-    public void the_user_enters_the_username_and_password(String username, String password) {
+    public void the_user_enters_the_username_and_password(String username, String password) throws InterruptedException {
         loginStepLibraries.login(username, password);
     }
 
