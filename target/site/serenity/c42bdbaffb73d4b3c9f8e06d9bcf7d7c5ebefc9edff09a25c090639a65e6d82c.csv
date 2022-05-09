@@ -1,2 +1,2 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"user login to the page successful","user login successful","ERROR","2022-04-21T02:11:10.404+07:00[Asia/Bangkok]","0.0","13.23"
+"user login to the page unsuccessful","user login unsuccessful","SUCCESS","2022-05-09T12:01:31.602+07:00[Asia/Bangkok]","0.0","95.36"
